@@ -2,7 +2,7 @@
   "author": "Konstantine Petryaev <numminorihsf@gmail.com>",
   "name": "msc",
   "description": "Master-Slaves cluster for standalone services.",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "keywords": [
     "cluster",
     "master",
@@ -18,7 +18,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "herald-client": "^1.0.6",
-    "herald-server": "^1.0.7"
+    "herald-client": "^1.0.7",
+    "herald-server": "^1.0.6"
   }
 }
