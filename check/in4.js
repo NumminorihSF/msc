@@ -1,5 +1,5 @@
 var S = require('../lib');
-process.exit();
+
 var s = new S({port: 8004, algorithm: 'aes128', key: 'adfhjewhrewkdf'});
 s.addServer(1, {port: 8001, algorithm: 'aes128', key: 'adfhjewhrewkdf'});
 s.addServer(2, {port: 8002, algorithm: 'aes128', key: 'adfhjewhrewkdf'});
