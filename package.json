@@ -19,6 +19,6 @@
   "license": "MIT",
   "dependencies": {
     "herald-client": "^1.0.6",
-    "herald-server": "^1.0.6"
+    "herald-server": "^1.0.7"
   }
 }
