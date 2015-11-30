@@ -126,7 +126,34 @@ Parameters:
 -----------|----------|------------------
 `key`      | String   |
  	
+ 	
+## msc.doIfMaster(cb)
 
+Spawn cb if is master. Else - wait timeout (msc.waitTimeout * 2) and try again.
+If now is master - spawn cb. Else do nothing. All callbacks will spawn in order, 
+they put into this function.
+
+Parameters:
+
+ Name 	   | Type     | Description
+-----------|----------|------------------
+`cb`       | Function |
+ 	
+
+## msc.doIfMasterByKey(key, cb)
+
+Spawn cb if is master by key. Else - wait timeout (msc.waitTimeout * 2) and try again.
+If now is master - spawn cb. Else do nothing. All callbacks will spawn in order, 
+they put into this function.
+
+Parameters:
+
+ Name 	   | Type     | Description
+-----------|----------|------------------
+`key`      | String   |
+`cb`       | Function |
+
+ 	
 
 ## msc.update([key])
 

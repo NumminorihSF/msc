@@ -2,7 +2,7 @@
   "author": "Konstantine Petryaev <numminorihsf@gmail.com>",
   "name": "msc",
   "description": "Master-Slaves cluster for standalone services.",
-  "version": "0.9.7",
+  "version": "0.9.8",
   "keywords": [
     "cluster",
     "master",
